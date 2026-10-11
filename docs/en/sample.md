@@ -2,3 +2,4 @@
 
 smoke
 push A
+push B
