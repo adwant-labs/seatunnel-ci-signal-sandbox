@@ -1,0 +1,11 @@
+name: "Build"
+on:
+  push:
+    branches-ignore:
+      - 'gh-readonly-queue/**'
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "stand-in for backend.yml"
